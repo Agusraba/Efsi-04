@@ -1,24 +1,14 @@
-import logo from '../img/logo.png'
-
+import '../App.css';
+import Principal from '../img/principal.jpeg';
 
 function Banner() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Sexo <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+  return (
+    <div className="container pt-4 pb-4">
+      <div>
+        <img src={Principal} class="d-block w-100" alt="..."></img>
       </div>
-    )
+    </div>
+  );
 }
-export default Banner
+
+export default Banner;
